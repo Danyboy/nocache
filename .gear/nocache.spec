@@ -40,7 +40,7 @@ Use case: backup processes that should not interfere with the present state of t
 %make_build
 
 %install
-%makeinstall_std PREFIX=%prefix LIBDIR=/%_lib
+%makeinstall_std PREFIX=%prefix libdir=%buildroot/%_libdir
 
 %check
 #make_build check
