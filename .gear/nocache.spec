@@ -1,6 +1,6 @@
 Name: nocache
 Version: 0.9
-Release: alt1
+Release: alt2
 
 Summary: nocache - minimize filesystem caching effects
 
@@ -52,5 +52,8 @@ Use case: backup processes that should not interfere with the present state of t
 %doc README COPYING
 
 %changelog
+* Mon Jul 15 2013 Daniil Mikhailov <danil@etersoft.ru> 0.9-alt2
+- change macros for libdir
+
 * Mon Jul 08 2013 Daniil Mikhailov <danil@etersoft.ru> 0.9-alt1
 - initial build for ALT Linux Sisyphus
